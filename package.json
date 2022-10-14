@@ -1,11 +1,11 @@
 {
   "name": "@primittive/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Primitive ESLint configuration.",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "primittive/eslint-config"
+    "url": "primittive/eslint-config-primittive"
   },
   "scripts": {
     "changeset": "changeset",
