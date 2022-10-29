@@ -1,6 +1,6 @@
 {
   "name": "@primittive/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Primitive ESLint configuration.",
   "main": "index.js",
   "license": "MIT",

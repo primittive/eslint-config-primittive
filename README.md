@@ -13,6 +13,10 @@
 1. Install the dependencies
 ```
 npm i -D eslint @primittive/eslint-config
+
+OR
+
+yarn add -D eslint @primittive/eslint-config
 ```
 
 2. Create a `.eslintrc.json` file extending the config:
