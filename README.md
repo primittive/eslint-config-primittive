@@ -23,7 +23,7 @@ yarn add -D eslint @primittive/eslint-config
 ```
 {
   "extends": "@primittive/eslint-config/react"
-  // "extends": "@rocketseat/eslint-config/node"
+  // "extends": "@primittive/eslint-config/node"
 }
 ```
 
