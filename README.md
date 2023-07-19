@@ -8,23 +8,50 @@
 - Standard config base;
 - JSX a11y plugin;
 
-## Setup
-
-1. Install the dependencies
+Install dependencies:
 ```
 npm i -D eslint @primittive/eslint-config
+```
+or
 
-OR
+```
+pnpm i -D eslint @primittive/eslint-config
+```
+or
 
-yarn add -D eslint @primittive/eslint-config
+```
+yarn i -D eslint @primittive/eslint-config
 ```
 
-2. Create a `.eslintrc.json` file extending the config:
+## Setup
+
+### React (with Next.js)
+
+Inside `.eslintrc.json`
 ```
 {
-  "extends": "@primittive/eslint-config/react"
-  // "extends": "@primittive/eslint-config/node"
+  "extends": [
+    "@primittive/eslint-config/next", 
+    "next/core-web-vitals"
+  ]
 }
 ```
 
+### React (without Next.js)
+
+Inside `.eslintrc.json`
+```
+{
+  "extends": "@primittive/eslint-config/react"
+}
+```
+
+### Node.js
+
+Inside `.eslintrc.json`
+```
+{
+  "extends": "@primittive/eslint-config/node"
+}
+```
 > You can also use a `.eslintrc.js` instead of JSON if you prefer.
